@@ -13,6 +13,7 @@ const errorHandler = (err, req, res, next) => {
   // Set status to statusCode
   res.status(statusCode);
 
+  // Custom validation
   if (err.name === "CastError" && err.kind === "ObjectId") {
     message = "Invalid ID";
     statusCode = 404;
