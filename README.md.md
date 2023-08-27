@@ -1,43 +1,35 @@
-# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
-# WebApp
+# ![EvoGym](https://gym-ts-eopl.vercel.app/)
+# Evo Gym
 <table>
 <tr>
 <td>
-  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+EvoGym is a Landing Page for a GYM membership application built with React Typescript, TailwindCSS, Framer motion.
 </td>
 </tr>
 </table>
 
 
 ## Demo
-Here is a working live demo :  https://iharsh234.github.io/WebApp/
+Live Demo:  https://gym-ts-eopl.vercel.app/
 
 
 ## Site
 
 ### Landing Page
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
+Landing page is all working except sign in.
+![](https://raw.githubusercontent.com/jkenger/gym-ts/main/public/images/landing.png)
 
-![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
+### Benefits Page
+![](https://raw.githubusercontent.com/jkenger/gym-ts/main/public/images/benefits.png)
 
-### Query Filled Form
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+### Classes Page
+![](https://raw.githubusercontent.com/jkenger/gym-ts/main/public/images/classes.png)
 
-### Charts
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart2.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
-
-
-## Mobile support
-The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
-
-![](https://iharsh234.github.io/WebApp/images/demo/mobile.png)
+### Application Form Page
+![](https://raw.githubusercontent.com/jkenger/gym-ts/main/public/images/application-form.png)
 
 
-
-
-## [Usage](https://iharsh234.github.io/WebApp/) 
+## [Usage](https://github.com/jkenger/gym-ts)
 
 ### Development
 Want to contribute? Great!
@@ -52,32 +44,22 @@ To fix a bug or enhance an existing module, follow these steps:
 - Push to the branch (`git push origin improve-feature`)
 - Create a Pull Request 
 
-### Bug / Feature Request
-
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/iharsh234/WebApp/issues/new) by including your search query and the expected result.
-
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/iharsh234/WebApp/issues/new). Please include sample queries and their corresponding results.
-
-
 ## Built with 
 
-- [jQuery - Ajax](http://www.w3schools.com/jquery/jquery_ref_ajax.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
-- [Google Chart API](https://developers.google.com/chart/interactive/docs/quick_start) - Free , Rich Gallery , Customizable and Cross-browser compatible.
-- [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
-
+- [React](https://react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Form Submit](https://formsubmit.co/) - Allows to make form submittion via email.
 
 ## To-do
-- Add BSE (India) Symbol to the current App.
-- Decide comparison models of Stocks. (suggestions are most welcome).
-- Another WebApp, capable of comparing at least 10 stocks.
+- Sign in page
 
 ## Team
 
-[![Harsh Vijay](https://avatars1.githubusercontent.com/u/12688534?v=3&s=144)](https://github.com/iharsh234)  | [![Quandl.com](https://github.com/iharsh234/WebApp/blob/master/images/quandl.jpg)](https://www.quandl.com/)
----|---
-[Harsh Vijay ](https://github.com/iharsh234) |[Quandl](https://www.quandl.com)
+[![Ken Gervacio](https://avatars.githubusercontent.com/u/73566770?v=4)](https://github.com/jkenger) 
 
-## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
+[Ken Gervacio ](https://github.com/jkenger) |[LinkedIn](https://www.linkedin.com/in/gervacioken/)
 
-MIT © [Harsh Vijay ](https://github.com/iharsh234)
+## [License]()
 
+MIT © 
